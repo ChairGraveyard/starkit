@@ -48,7 +48,9 @@ export function renderWhatIs(windowService: WindowService): React.ReactNode {
             What is Theia Blueprint?
         </h3>
         <div >
-            StarKit Lite is an editor and debugger for Starfield Papyrus scripts. It is based on Eclipse Theia Blueprint, bundled with Starfield themes and extensions for compiling and debugging Papyrus scripts. 
+            StarKit Lite is an editor and debugger for Starfield Papyrus scripts. 
+            It is based on Eclipse Theia Blueprint, bundled with Starfield themes
+             and extensions for compiling and debugging Papyrus scripts.
         </div>
     </div>;
 }
@@ -59,7 +61,9 @@ export function renderWhatIsNot(): React.ReactNode {
             What is it not?
         </h3>
         <div >
-            StarKit Lite is <span className='gs-text-bold'><span className='gs-text-underline'>not</span> a replacement for the Creation Kit</span>. Currently it can only debug and compile Papyrus scripts for Starfield. In the future it may be extended to support plugin creation in a similar but much more limited fashion as the Creation Kit.
+            StarKit Lite is <span className='gs-text-bold'><span className='gs-text-underline'>not</span> a replacement
+            for the Creation Kit</span>. Currently it can only debug and compile Papyrus scripts for Starfield.
+            In the future it may be extended to support plugin creation in a similar but much more limited fashion as the Creation Kit.
         </div>
     </div>;
 }
@@ -70,7 +74,8 @@ export function renderSupport(windowService: WindowService): React.ReactNode {
             Support
         </h3>
         <div >
-            For general questions and support please use the <ExternalBrowserLink text="StarKit Github Issues page" url="https://github.com/ChairGraveyard/starkit/issues/new/choose"
+            For general questions and support please use the 
+            <ExternalBrowserLink text="StarKit Github Issues page" url="https://github.com/ChairGraveyard/starkit/issues/new/choose"
                 windowService={windowService} ></ExternalBrowserLink>.
         </div>
     </div>;
