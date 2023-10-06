@@ -9,7 +9,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: '0 4 * * *' # Runs every day at 4am: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
+    - cron: '0 4 1 * *' # Runs every day at 4am: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events-schedule
 
 jobs:
 
@@ -48,7 +48,7 @@ jobs:
           yarn --skip-integrity-check --network-timeout 100000
           yarn build:dev
           yarn download:plugins
-          yarn package:applications:preview
+          yarn package:applications
         env:
           NODE_OPTIONS: --max_old_space_size=4096
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # https://github.com/microsoft/vscode-ripgrep/issues/9
