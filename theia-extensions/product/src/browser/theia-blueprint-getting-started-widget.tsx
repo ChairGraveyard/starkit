@@ -132,7 +132,7 @@ export class TheiaBlueprintGettingStartedWidget extends GettingStartedWidget {
 
     protected renderHeader(): React.ReactNode {
         return <div className='gs-header'>
-            <h1>StarKit Lite</span></h1>
+            <h1>StarKit Lite</h1>
             {this.renderVersion()}
         </div>;
     }
