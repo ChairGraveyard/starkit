@@ -6,7 +6,7 @@
   "version": "1.42.1",
   "main": "scripts/theia-electron-main.js",
   "license": "EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0",
-  "author": "ChairGraveard",
+  "author": "ChairGraveyard <n00854180t@gmail.com>",
   "homepage": "https://github.com/ChairGraveard/starkit#readme",
   "bugs": {
     "url": "https://github.com/ChairGraveard/starkit/issues"
