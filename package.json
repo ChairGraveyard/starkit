@@ -2,10 +2,10 @@
   "private": true,
   "version": "1.42.1",
   "license": "EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0",
-  "author": "Rob Moran <github@thegecko.org>",
-  "homepage": "https://github.com/eclipse-theia/theia-blueprint#readme",
+  "author": "ChairGraveyard",
+  "homepage": "https://github.com/ChairGraveyard/starkit#readme",
   "bugs": {
-    "url": "https://github.com/eclipse-theia/theia/issues"
+    "url": "https://github.com/ChairGraveyard/starkit/issues"
   },
   "repository": {
     "type": "git",
@@ -14,6 +14,13 @@
   "engines": {
     "yarn": ">=1.7.0 <2",
     "node": ">=12.14.1"
+  },
+  "theia": {
+    "frontend": {
+      "config": {
+        "defaultTheme": "starfield-terminal-night"
+      }
+    }
   },
   "devDependencies": {
     "@theia/cli": "1.42.1",
@@ -54,10 +61,59 @@
   "theiaPluginsDir": "plugins",
   "theiaPlugins": {
     "vscode-builtin-extensions-pack": "https://open-vsx.org/api/eclipse-theia/builtin-extension-pack/1.77.0/file/eclipse-theia.builtin-extension-pack-1.77.0.vsix",
-    "vscjava.vscode-java-pack": "https://open-vsx.org/api/vscjava/vscode-java-pack/0.25.11/file/vscjava.vscode-java-pack-0.25.11.vsix",
-    "vscjava.vscode-java-dependency": "https://open-vsx.org/api/vscjava/vscode-java-dependency/0.21.2/file/vscjava.vscode-java-dependency-0.21.2.vsix"
+    "papyrus-lang": "https://github.com/nikitalita/papyrus-lang/releases/download/v3.3.0-prerelease.2/papyrus-lang-vscode-3.3.0-prerelease.2.vsix",
+    "starfield-terminal-night": "https://github.com/ChairGraveyard/starfield-terminal-night/releases/download/master/starfield-terminal-night-0.0.1.vsix"
   },
   "theiaPluginsExcludeIds": [
+    "vscode.bat",
+    "vscode.clojure",
+    "vscode.coffeescript",
+    "vscode.configuration-editing",
+    "vscode.cpp",
+    "vscode.csharp",
+    "vscode.css",
+    "vscode.css-language-features",
+    "vscode.dart",
+    "vscode.emmet",
+    "vscode.extension-editing",
+    "vscode.fsharp",
+    "vscode.go",
+    "vscode.groovy",
+    "vscode.grunt",
+    "vscode.gulp",
+    "vscode.handlebars",
+    "vscode.html",
+    "vscode.html-language-features",
+    "vscode.jake",
+    "vscode.java",
+    "vscode.javascript",
+    "vscode.julia",
+    "vscode.latex",
+    "vscode.less",
+    "vscode.lua",
+    "vscode.npm",
+    "vscode.objective-c",
+    "vscode.perl",
+    "vscode.php",
+    "vscode.php-language-features",
+    "vscode.powershell",
+    "vscode.pug",
+    "vscode.python",
+    "vscode.r",
+    "vscode.razor",
+    "vscode.references-view",
+    "vscode.restructuredtext",
+    "vscode.ruby",
+    "vscode.rust",
+    "vscode.scss",
+    "vscode.shaderlab",
+    "vscode.shellscript",
+    "vscode.simple-browser",
+    "vscode.sql",
+    "vscode.swift",
+    "vscode.typescript",
+    "vscode.typescript-language-features",
+    "vscode.vb",
     "ms-vscode.js-debug-companion",
     "VisualStudioExptTeam.vscodeintellicode",
     "vscode.builtin-notebook-renderers",

@@ -48,13 +48,7 @@ export function renderWhatIs(windowService: WindowService): React.ReactNode {
             What is Theia Blueprint?
         </h3>
         <div >
-            Eclipse Theia Blueprint is a <span className='gs-text-bold'>template</span> to showcase
-            the capabilities of Eclipse Theia as well as how to build desktop-based products based on the platform.
-            Theia Blueprint assembles a selected subset of existing Theia features and extensions. We
-            provide installers for Theia Blueprint to be downloaded (see below) as well
-            as <ExternalBrowserLink text="documentation" url="https://theia-ide.org/docs/blueprint_documentation/"
-                windowService={windowService} ></ExternalBrowserLink> on how to customize this template to build a
-            product and installers for your own Theia-based product.
+            StarKit Lite is an editor and debugger for Starfield Papyrus scripts. It is based on Eclipse Theia Blueprint, bundled with Starfield themes and extensions for compiling and debugging Papyrus scripts. 
         </div>
     </div>;
 }
@@ -65,8 +59,7 @@ export function renderWhatIsNot(): React.ReactNode {
             What is it not?
         </h3>
         <div >
-            Eclipse Theia Blueprint is <span className='gs-text-bold'><span className='gs-text-underline'>not</span> a production-ready
-                product</span>. Therefore, it is also not a replacement for Visual Studio Code or any other IDE.
+            StarKit Lite is <span className='gs-text-bold'><span className='gs-text-underline'>not</span> a replacement for the Creation Kit</span>. Currently it can only debug and compile Papyrus scripts for Starfield. In the future it may be extended to support plugin creation in a similar but much more limited fashion as the Creation Kit.
         </div>
     </div>;
 }
@@ -74,12 +67,11 @@ export function renderWhatIsNot(): React.ReactNode {
 export function renderSupport(windowService: WindowService): React.ReactNode {
     return <div className='gs-section'>
         <h3 className='gs-section-header'>
-            Professional Support
+            Support
         </h3>
         <div >
-            Professional support, implementation services, consulting and training for building tools like this instance of Theia Blueprint and for
-            building other tools based on Eclipse Theia is available by selected companies as listed on the
-            <ExternalBrowserLink text=" Theia support page" url="https://theia-ide.org/support/" windowService={windowService} ></ExternalBrowserLink>.
+            For general questions and support please use the <ExternalBrowserLink text="StarKit Github Issues page" url="https://github.com/ChairGraveyard/starkit/issues/new/choose"
+                windowService={windowService} ></ExternalBrowserLink>.
         </div>
     </div>;
 }
@@ -90,16 +82,14 @@ export function renderTickets(windowService: WindowService): React.ReactNode {
             Reporting feature requests and bugs
         </h3>
         <div >
-            The features in Eclipse Theia Blueprint are based on Theia and the included
-            extensions/plugins. For bugs in Theia please consider opening an issue in
-            the <ExternalBrowserLink text="Theia project on Github" url="https://github.com/eclipse-theia/theia/issues/new/choose"
-                windowService={windowService} ></ExternalBrowserLink>.
+            The features in StarKit Lite are based on Theia and the included
+            extensions/plugins. For bugs in Theia please consider opening an issue in Theia project on Github.
         </div>
         <div>
-            Eclipse Theia Blueprint only packages existing functionality into a product and installers
+            StarKit Lite only packages existing functionality into a product and installers
             for the product. If you believe there is a mistake in packaging, something needs to be added to the
             packaging or the installers do not work properly,
-            please <ExternalBrowserLink text="open an issue on Github" url="https://github.com/eclipse-theia/theia-blueprint/issues/new/choose"
+            please <ExternalBrowserLink text="open an issue on Github" url="https://github.com/ChairGraveyard/starkit/issues/new/choose"
                 windowService={windowService} ></ExternalBrowserLink> to let us know.
         </div>
     </div>;
@@ -111,8 +101,8 @@ export function renderSourceCode(windowService: WindowService): React.ReactNode 
             Source Code
         </h3>
         <div >
-            The source code of Eclipse Theia Blueprint is available
-            on <ExternalBrowserLink text="Github" url="https://github.com/eclipse-theia/theia-blueprint"
+            The source code of StarKit Lite is available
+            on <ExternalBrowserLink text="Github" url="https://github.com/ChairGraveyard/starkit"
                 windowService={windowService} ></ExternalBrowserLink>.
         </div>
     </div>;
@@ -126,7 +116,7 @@ export function renderDocumentation(windowService: WindowService): React.ReactNo
         <div >
             Please see <ExternalBrowserLink text="here" url="https://theia-ide.org/docs/blueprint_documentation/"
                 windowService={windowService} ></ExternalBrowserLink> for
-            documentation how to customize Eclipse Theia Blueprint.
+            documentation how to customize StarKit Lite.
         </div>
     </div>;
 }
@@ -137,7 +127,7 @@ export function renderDownloads(): React.ReactNode {
             Updates and Downloads
         </h3>
         <div className='gs-action-container'>
-            You can update Eclipse Theia Blueprint directly in this application by navigating to
+            You can update StarKit Lite directly in this application by navigating to
             File {'>'} Settings {'>'} Check for Updates… Moreover the application will check for updates
             after each launch automatically.
         </div>

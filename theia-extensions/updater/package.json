@@ -2,7 +2,7 @@
   "private": true,
   "name": "blueprint-updater-ext",
   "version": "1.42.1",
-  "description": "Eclipse Theia Blueprint Updater",
+  "description": "StarKit Lite Updater",
   "dependencies": {
     "@theia/core": "1.42.1",
     "@theia/output": "1.42.1",
@@ -29,12 +29,12 @@
   "license": "EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eclipse-theia/theia-blueprint.git"
+    "url": "https://github.com/ChairGraveard/starkit.git"
   },
   "bugs": {
-    "url": "https://github.com/eclipse-theia/theia-blueprint/issues"
+    "url": "https://github.com/ChairGraveard/starkit/issues"
   },
-  "homepage": "https://github.com/eclipse-theia/theia-blueprint",
+  "homepage": "https://github.com/ChairGraveard/starkit",
   "files": [
     "lib",
     "src"
