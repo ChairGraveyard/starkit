@@ -48,7 +48,7 @@ export function renderWhatIs(windowService: WindowService): React.ReactNode {
             What is Theia Blueprint?
         </h3>
         <div >
-            StarKit Lite is an editor and debugger for Starfield Papyrus scripts. 
+            StarKit Lite is an editor and debugger for Starfield Papyrus scripts.
             It is based on Eclipse Theia Blueprint, bundled with Starfield themes
              and extensions for compiling and debugging Papyrus scripts.
         </div>
@@ -74,7 +74,7 @@ export function renderSupport(windowService: WindowService): React.ReactNode {
             Support
         </h3>
         <div >
-            For general questions and support please use the 
+            For general questions and support please use the
             <ExternalBrowserLink text="StarKit Github Issues page" url="https://github.com/ChairGraveyard/starkit/issues/new/choose"
                 windowService={windowService} ></ExternalBrowserLink>.
         </div>
